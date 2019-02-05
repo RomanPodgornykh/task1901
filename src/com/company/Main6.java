@@ -14,10 +14,11 @@ public class Main6 {
             sourceNumbers[i] = scan.nextInt();
         }
         for (int i = 0; i < number; i++)
-            if (sourceNumbers[i] % 2 != 0)
+            if (sourceNumbers[i] % 2 != 0) {
                 System.out.println("Нечётное число:" + sourceNumbers[i]);
-            else if (sourceNumbers[i] % 2 == 0)
+            } else if (sourceNumbers[i] % 2 == 0) {
                 System.out.println("Чётное число:" + sourceNumbers[i]);
+            }
     }
 
 }
